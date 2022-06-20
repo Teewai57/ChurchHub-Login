@@ -33,7 +33,7 @@ label{
     width: 30%;
     height: 100%;   
     margin: auto;
-    margin-top: 3rem;  
+    margin-top: 2.5rem;  
     border-radius: 0.5rem;   
     padding: 15px;
 }
@@ -78,6 +78,9 @@ label{
 .btn{
     color: gainsboro;
     align-items: center;
+}
+.forgotten_password{
+    color: #872642 !important;
 }
 @media (min-width:1440px) {
     .form{
