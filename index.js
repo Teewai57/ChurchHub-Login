@@ -9,16 +9,10 @@ loginButton.addEventListener('click',async function(event){
         Password : password.value,
     }
     console.log(user);
- const res = await axios.post('https://teewai-a5679-default-rtdb.firebaseio.com',{
-     headers:{ 
-         'content-type':"Apllication/json"
-     },
-     body:JSON.stringify(user)
- })
- console.log(res);
-})
+ const res = await axios.post('https://teewai-a5679-default-rtdb.firebaseio.com/.json',user)
 
 // const postDetails = async () => {
 //     const response = await post();
 //     console.log(response);
 // }
+})
